@@ -28,5 +28,14 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
   val rafaelFernandezOrtiz: CurriculumVitae[List] = cv(me)
 ```
 
+
+
 ## 🔧 Tech Stack
+
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
+
+## Repos
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rafafrdz&repo=braids-and-cryptography)](https://github.com/rafafrdz/braids-and-cryptography) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rafafrdz&repo=g30Loc)](https://github.com/rafafrdz/g30Loc) 
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rafafrdz&repo=saddle)](https://github.com/rafafrdz/saddle) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rafafrdz&repo=practice-huffman-coding-algorithm)](https://github.com/rafafrdz/practice-huffman-coding-algorithms)  
