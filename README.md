@@ -32,7 +32,7 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 
 #  Tech Stack <img align="left" alt="png" src="./pictures/code.png?raw=true" width="60px"/>
 
-![](https://img.shields.io/badge/-Scala-%23f61938?logo=scala)![](https://img.shields.io/badge/-Haskell-violet?logo=haskell)![](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white)![](https://img.shields.io/badge/Apache-Spark-yellow)![](https://img.shields.io/badge/Apache-PySpark-green)![](https://img.shields.io/badge/Apache-HDFS-white)<img align="right" alt="GIF" src="./pictures/developer.gif?raw=true" width="500" height="320" />
+![](https://img.shields.io/badge/-Scala-%23f61938?logo=scala)![](https://img.shields.io/badge/-Haskell-violet?logo=haskell)![](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white)![](https://img.shields.io/badge/Apache-Spark-yellow)![](https://img.shields.io/badge/Apache-PySpark-green)![](https://img.shields.io/badge/Apache-HDFS-white)<img align="right" alt="GIF" src="./pictures/developer.gif?raw=true" width="500"/>
 
 ![](https://img.shields.io/badge/-SonarQube-blue?logo=sonarqube&logoColor=white)![](https://img.shields.io/badge/-Git-orange?logo=git&logoColor=white)![](https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white)![](https://img.shields.io/badge/-Docker-00c0ff?logo=docker&logoColor=white)![](https://img.shields.io/badge/-Sbt-red?&logoColor=white)![](https://img.shields.io/badge/-Maven-blue?&logoColor=white)
 
@@ -44,7 +44,11 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 
 
 
+
+
 # Work in progress...<img align="left" alt="png" src="./pictures/github.png?raw=true" width="60px"/>
+
+
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rafafrdz&repo=braids-and-cryptography)](https://github.com/rafafrdz/braids-and-cryptography) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rafafrdz&repo=g30Loc)](https://github.com/rafafrdz/g30Loc) 
 
@@ -53,6 +57,8 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 
 
 # Coffee time... Let's talk!<img align="left" alt="png" src="./pictures/cup.png?raw=true" width="60px"/>
+
+
 
 - 💬 Ask me about anything, I am happy to help;
 - 🐤 How to reach me: [@neskeip](https://twitter.com/neskeip);
