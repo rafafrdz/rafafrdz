@@ -2,9 +2,11 @@
 
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50px">
 
+![](https://visitor-badge.glitch.me/badge?page_id=rafafrdz.rafafrdz)
+
 I'm a graduated in mathematics specialized in algebra and computer science, and a passionated Scala developer. As fascinated in learning about category theory as playing 80's arcade games. Looking for new challenges and new approaches to develop.
 
-#### release 1.9.94  ![](https://visitor-badge.glitch.me/badge?page_id=rafafrdz.rafafrdz)
+#### release 1.9.94  
 
 ```scala
  import dev.myself.core._
