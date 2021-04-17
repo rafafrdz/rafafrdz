@@ -2,7 +2,7 @@
 
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50px">
 
-[![Linkedin](https://img.shields.io/badge/Linked-in-369?&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/rafael-fernandez-ortiz/) [![E-Mail](https://img.shields.io/badge/email-contact-red?&logo=gmail&logoColor=white)](https://mailhide.io/e/b7vzcFKk) <a href="https://reddit.com/u/rafafrdz"><img alt="Reddit User Karma" src="https://img.shields.io/reddit/user-karma/combined/rafafrdz?label=karma&logo=reddit&logoColor=white"></a> ![](https://visitor-badge.glitch.me/badge?page_id=rafafrdz.rafafrdz)
+[![Linkedin](https://img.shields.io/badge/Linked-in-369?&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/rafael-fernandez-ortiz/)  <a href="https://reddit.com/u/rafafrdz"><img alt="Reddit User Karma" src="https://img.shields.io/reddit/user-karma/combined/rafafrdz?label=karma&logo=reddit&logoColor=white"></a> ![](https://visitor-badge.glitch.me/badge?page_id=rafafrdz.rafafrdz)
 
 I'm a graduated in mathematics specialized in algebra and computer science, and a passionated Scala developer. As fascinated in learning about category theory as playing 80's arcade games. Looking for new challenges and new approaches to develop.
 
