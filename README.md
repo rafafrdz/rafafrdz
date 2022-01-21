@@ -64,5 +64,6 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 
 - 💬 Ask me about anything, I am happy to help;
 - 🐤 How to reach me: [@neskeip](https://twitter.com/neskeip);
-- 📝 [Resume (Spanish)](https://drive.google.com/file/d/1Rp_m1IIS7txtsfOGmYGFnMhyJzWqkZjd/view)
+- 📝 [Resume (Spanish)](https://drive.google.com/file/d/1yE_VHTEpefw8NXSFIBNbB-3VZ2z4E7c9/view)
+- 📝 [Resume (English)](https://drive.google.com/file/d/1uqTAWSx0z5iuWpLnNZqaqNmLkj6sB25G/view)
 - 🌍 [Website](https://rafaelfernandez.dev)
