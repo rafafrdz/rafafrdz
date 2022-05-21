@@ -32,9 +32,9 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 
 
 
-#  Tech Stack <img align="left" alt="png" src="./pictures/code.png?raw=true" width="55px"/>
+#  Tech Stack <img align="left" alt="png" src="./pictures/code.png?raw=true" width="60px"/>
 
-![](https://img.shields.io/badge/-Scala-%23f61938?logo=scala) ![](https://img.shields.io/badge/-Haskell-violet?logo=haskell) ![](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white) ![](https://img.shields.io/badge/Apache-Spark-yellow) ![](https://img.shields.io/badge/Apache-PySpark-green)<img align="right" alt="GIF" src="./pictures/developer.gif?raw=true" width="400"/>
+![](https://img.shields.io/badge/-Scala-%23f61938?logo=scala) ![](https://img.shields.io/badge/-Haskell-violet?logo=haskell) ![](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white) ![](https://img.shields.io/badge/Apache-Spark-yellow) ![](https://img.shields.io/badge/Apache-PySpark-green)<img align="right" alt="GIF" src="./pictures/developer.gif?raw=true" width="350"/>
 
 ![](https://img.shields.io/badge/Apache-HDFS-white) ![](https://img.shields.io/badge/-SonarQube-blue?logo=sonarqube&logoColor=white) ![](https://img.shields.io/badge/-Git-orange?logo=git&logoColor=white) ![](https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white) ![](https://img.shields.io/badge/-Docker-00c0ff?logo=docker&logoColor=white) ![](https://img.shields.io/badge/-Sbt-red?&logoColor=white)  
 
