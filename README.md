@@ -1,6 +1,6 @@
 [![Header](./pictures/banner.png "Header")](https://rafaelfernandezortiz.com/)
 
-# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50px">
+# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="10px">
 
 [![Linkedin](https://img.shields.io/badge/Linked-in-369?&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/rafael-fernandez-ortiz/)  <a href="https://reddit.com/u/rafafrdz"><img alt="Reddit User Karma" src="https://img.shields.io/reddit/user-karma/combined/rafafrdz?label=karma&logo=reddit&logoColor=white"></a> ![](https://visitor-badge.glitch.me/badge?page_id=rafafrdz.rafafrdz)
 
