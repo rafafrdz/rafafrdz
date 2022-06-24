@@ -36,7 +36,7 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 
 ![](https://img.shields.io/badge/-Scala-%23f61938?logo=scala) ![](https://img.shields.io/badge/-Haskell-violet?logo=haskell) ![](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white) ![](https://img.shields.io/badge/Apache-Spark-yellow) ![](https://img.shields.io/badge/Apache-PySpark-green) ![](https://img.shields.io/badge/Apache-HDFS-white) ![](https://img.shields.io/badge/-SonarQube-blue?logo=sonarqube&logoColor=white) ![](https://img.shields.io/badge/-Git-orange?logo=git&logoColor=white) ![](https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white) ![](https://img.shields.io/badge/-Docker-00c0ff?logo=docker&logoColor=white) ![](https://img.shields.io/badge/-Sbt-red?&logoColor=white) ![](https://img.shields.io/badge/-Maven-blue?&logoColor=white) ![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=white) ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a) <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
 
-<img align="right" alt="GIF" src="./pictures/developer.gif?raw=true" width="400"/>
+<img align="right" alt="GIF" src="./pictures/developer.gif?raw=true" width="300"/>
 
 #### And more...
 
