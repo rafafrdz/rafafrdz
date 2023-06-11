@@ -30,17 +30,33 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
   val rafaelFernandezOrtiz: CurriculumVitae[List] = cv(me)
 ```
 
-#  Tech Stack <img align="left" alt="png" src="./pictures/code.png?raw=true" width="60px"/>
+<h1>Tech Stack <img align="left" alt="png" src="./pictures/code.png?raw=true" width="60px"/></h1>
 
-![](https://img.shields.io/badge/-Scala-%23f61938?logo=scala) ![](https://img.shields.io/badge/-Haskell-violet?logo=haskell) ![](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white) ![](https://img.shields.io/badge/Apache-Spark-yellow) ![](https://img.shields.io/badge/Apache-PySpark-green) ![](https://img.shields.io/badge/Apache-HDFS-white) ![](https://img.shields.io/badge/-SonarQube-blue?logo=sonarqube&logoColor=white) ![](https://img.shields.io/badge/-Git-orange?logo=git&logoColor=white) ![](https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white) ![](https://img.shields.io/badge/-Docker-00c0ff?logo=docker&logoColor=white) ![](https://img.shields.io/badge/-Sbt-red?&logoColor=white) ![](https://img.shields.io/badge/-Maven-blue?&logoColor=white) ![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=white) ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a) <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
-
+<p align="left">
+<a href="https://www.scala-lang.org/"><img align="center" src="https://img.shields.io/badge/-Scala-%23f61938?logo=scala" alt="scala-lang"/></a>
+<a href="https://www.haskell.org/"><img align="center" src="https://img.shields.io/badge/-Haskell-blue?logo=haskell" alt="haskell-lang"/></a>
+<a href="https://www.erlang.org/"><img align="center" src="https://img.shields.io/badge/-Erlang-purple?logo=erlang" alt="erlang"/></a>
+<a href="https://www.rust-lang.org"><img align="center" src="https://img.shields.io/badge/-Rust-orange?logo=rust" alt="rust-lang"/></a>
+<a href="https://www.swi-prolog.org/"><img align="center" src="https://img.shields.io/badge/-Prolog-black?logo=prolog" alt="swi-prolog"/></a>
+<a href="https://spark.apache.org/"><img align="center" src="https://img.shields.io/badge/Apache-Spark-yellow?logo=apachespark" alt="apache spark"/></a>
+<a href="https://kafka.apache.org/"><img align="center" src="https://img.shields.io/badge/Apache-Kafka-purple?logo=apachekafka" alt="apache kafka"/></a>
+<a href="https://hadoop.apache.org/"><img align="center" src="https://img.shields.io/badge/Apache-Hadoop-white?logo=apachehadoop" alt="apache hadoop"/></a>
+<a href="https://docs.sonarqube.org/latest/"><img align="center" src="https://img.shields.io/badge/-SonarQube-blue?logo=sonarqube&logoColor=white" alt="sonarqube"/></a>
+<a href="https://git-scm.com/"><img align="center" src="https://img.shields.io/badge/-Git-white?logo=git&logoColor=orange" alt="git"/></a>
+<a href="https://github.com/"><img align="center" src="https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white" alt="github"/></a>
+<a href="https://www.docker.com/"><img align="center" src="https://img.shields.io/badge/-Docker-00c0ff?logo=docker&logoColor=white" alt="docker"/></a>
+<a href="https://www.scala-sbt.org/"><img align="center" src="https://img.shields.io/badge/-Sbt-red?&logoColor=white?logo=sbt" alt="sbt"/></a>
+<a href="https://mvnrepository.com/"><img align="center" src="https://img.shields.io/badge/-Maven-blue?&logoColor=white?logo=maven" alt="maven"/></a>
+<img align="center" src="https://img.shields.io/badge/Linux-informational?style=flat&logo=linux&logoColor=black&color=white" alt="linux"/>
+<img align="center" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
+</p>
+<h3> And more... </h3>
+<p>
+<a href="https://github.com/rafafrdz/"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" alt="rafafrdz-stats"/></a>
 <img align="right" alt="GIF" src="./pictures/developer.gif?raw=true" width="350"/>
+</p>
 
-#### And more...
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact)](https://github.com/rafafrdz/)
-
-# To code or not to code, that is the question <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/>
+<h1> To code or not to code, that is the question <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/> </h1>
 
 Hi! I would like to show you some posts that I wrote about design patterns, functional programming, scala and so on.
 - [Web] [Agregando skills modulares (Spanish)](https://rafaelfernandez.dev/agregando-skills-modulares)
@@ -48,7 +64,7 @@ Hi! I would like to show you some posts that I wrote about design patterns, func
 - [Reddit] [Free Monad vs Tagless Final (English)](https://www.reddit.com/r/scala/comments/uzoycg/free_monad_vs_tagless_final/)
 
 
-# Coffee time... Let's talk!<img align="left" alt="png" src="./pictures/cup.png?raw=true" width="60px"/>
+<h1>  Coffee time... Let's talk!<img align="left" alt="png" src="./pictures/cup.png?raw=true" width="60px"/></h1> 
 
 - 💬 Ask me about anything, I am happy to help;
 - 🐤 How to reach me: [@neskeip](https://twitter.com/neskeip);
