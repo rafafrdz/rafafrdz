@@ -67,7 +67,4 @@ Hi! I would like to show you some posts that I wrote about design patterns, func
 - 📝 [Resume (English)](https://drive.google.com/file/d/1uqTAWSx0z5iuWpLnNZqaqNmLkj6sB25G/view)
 - 🌍 [Website](https://rafaelfernandez.dev)
   
-
-|                          |                          |  
-:-------------------------:|:-------------------------:
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact)  | <img src="./pictures/developer.gif?raw=true" alt="myself-gif" width="350" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact"> <img src="https://github-readme-stats.vercel.app/api?username=rafafrdz&rank_icon=github">
