@@ -51,8 +51,7 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 <img align="center" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
 </p>
 <h3> And more... </h3>
-
- <div class="row">
+<div class="row">
   <div class="column">
   <a href="https://github.com/rafafrdz/">
     <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" alt="rafafrdz-stats" style="width:40%">
@@ -62,9 +61,8 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
     <img align="right" src="./pictures/developer.gif?raw=true" alt="myself-gif" style="width:40%">
   </div>
 </div> 
-
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <h1> To code or not to code, that is the question <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/> </h1>
-
 
 Hi! I would like to show you some posts that I wrote about design patterns, functional programming, scala and so on.
 - [Web] [Agregando skills modulares (Spanish)](https://rafaelfernandez.dev/agregando-skills-modulares)
