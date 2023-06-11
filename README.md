@@ -53,7 +53,7 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 <h3> And more... </h3>
 <div align="left">
 <a href="https://github.com/rafafrdz/"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" alt="rafafrdz-stats"/></a>
-<img src="./pictures/developer.gif?raw=true" alt="GIF" style="float:right;width:350px;""/>
+<img src="./pictures/developer.gif?raw=true" alt="GIF" align="right" style="width:350px;""/>
 
 </div>
 <div>
