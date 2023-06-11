@@ -53,7 +53,8 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 <h3> And more... </h3>
 <div align="left">
 <a href="https://github.com/rafafrdz/"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" alt="rafafrdz-stats"/></a>
-<img align="right" alt="GIF" src="./pictures/developer.gif?raw=true" width="350"/>
+<img src="./pictures/developer.gif?raw=true" alt="GIF" style="float:right;width:350px;""/>
+
 </div>
 <div>
 <h1> To code or not to code, that is the question <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/> </h1>
