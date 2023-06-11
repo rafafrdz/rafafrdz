@@ -33,9 +33,9 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 <h1> To code or not to code, that is the question <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/> </h1>
 
 Hi! I would like to show you some posts that I wrote about design patterns, functional programming, scala and so on.
-- [Web] [Agregando skills modulares (Spanish)](https://rafaelfernandez.dev/agregando-skills-modulares)
-- [Web] [Fechas y expresiones regulares (Spanish)](https://rafaelfernandez.dev/fechas-expresiones-regulares)
-- [Reddit] [Free Monad vs Tagless Final (English)](https://www.reddit.com/r/scala/comments/uzoycg/free_monad_vs_tagless_final/)
+- **Web** [Agregando skills modulares (Spanish)](https://rafaelfernandez.dev/agregando-skills-modulares)
+- **Web** [Fechas y expresiones regulares (Spanish)](https://rafaelfernandez.dev/fechas-expresiones-regulares)
+- **Reddit** [Free Monad vs Tagless Final (English)](https://www.reddit.com/r/scala/comments/uzoycg/free_monad_vs_tagless_final/)
   
 <br>
 <h1>  Coffee time... Let's talk!<img align="left" alt="png" src="./pictures/cup.png?raw=true" width="60px"/></h1> 
