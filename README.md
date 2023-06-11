@@ -51,8 +51,6 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 <img align="center" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
 </p>
 <br>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" width="41%"> <img src="https://github-readme-stats.vercel.app/api?username=rafafrdz&rank_icon=github" width="52%">
-<br><br>
 <h1> To code or not to code, that is the question <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/> </h1>
 
 Hi! I would like to show you some posts that I wrote about design patterns, functional programming, scala and so on.
@@ -68,3 +66,5 @@ Hi! I would like to show you some posts that I wrote about design patterns, func
 - 📝 [Resume (Spanish)](https://drive.google.com/file/d/1yE_VHTEpefw8NXSFIBNbB-3VZ2z4E7c9/view)
 - 📝 [Resume (English)](https://drive.google.com/file/d/1uqTAWSx0z5iuWpLnNZqaqNmLkj6sB25G/view)
 - 🌍 [Website](https://rafaelfernandez.dev)
+  
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" width="41%"> <img src="https://github-readme-stats.vercel.app/api?username=rafafrdz&rank_icon=github" width="52%">
