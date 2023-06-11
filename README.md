@@ -40,12 +40,6 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact)](https://github.com/rafafrdz/)
 
-# Work in progress...<img align="left" alt="png" src="./pictures/github.png?raw=true" width="60px"/>
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rafafrdz&repo=braids-and-cryptography)](https://github.com/rafafrdz/braids-and-cryptography) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rafafrdz&repo=g30Loc)](https://github.com/rafafrdz/g30Loc) 
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rafafrdz&repo=saddle)](https://github.com/rafafrdz/saddle) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rafafrdz&repo=practice-huffman-coding-algorithm)](https://github.com/rafafrdz/practice-huffman-coding-algorithms)  
-
 # To code or not to code, that is the question <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/>
 
 Hi! I would like to show you some posts that I wrote about design patterns, functional programming, scala and so on.
