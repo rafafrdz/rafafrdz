@@ -70,4 +70,4 @@ Hi! I would like to show you some posts that I wrote about design patterns, func
 <a href="https://github.com/rafafrdz/">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" alt="rafafrdz-stats">
 </a>
-<img align="center" src="./pictures/developer.gif?raw=true" alt="myself-gif" style="width:350px">
+<img align="right" src="./pictures/developer.gif?raw=true" alt="myself-gif" style="width:350px">
