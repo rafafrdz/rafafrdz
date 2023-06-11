@@ -59,7 +59,7 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
   </a>
   </div>
   <div class="column">
-    <img src="./pictures/developer.gif?raw=true" alt="myself-gif" style="width:40%">
+    <img align="center" src="./pictures/developer.gif?raw=true" alt="myself-gif" style="width:40%">
   </div>
 </div> 
 
