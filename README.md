@@ -55,7 +55,7 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
  <div class="row">
   <div class="column">
   <a href="https://github.com/rafafrdz/">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" alt="rafafrdz-stats" style="width:40%">
+    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" alt="rafafrdz-stats" style="width:40%">
   </a>
   </div>
   <div class="column">
