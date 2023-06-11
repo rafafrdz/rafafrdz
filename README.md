@@ -53,12 +53,11 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 <h3> And more... </h3>
 
 <a href="https://github.com/rafafrdz/">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" alt="rafafrdz-stats" style="width:40%">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" alt="rafafrdz-stats">
 </a>
-<img align="right" src="./pictures/developer.gif?raw=true" alt="myself-gif" style="width:40%">
+<img align="right" src="./pictures/developer.gif?raw=true" alt="myself-gif" style="width:350px">
 
-
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 <h1> To code or not to code, that is the question <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/> </h1>
 
 Hi! I would like to show you some posts that I wrote about design patterns, functional programming, scala and so on.
