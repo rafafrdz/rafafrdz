@@ -67,4 +67,4 @@ Hi! I would like to show you some posts that I wrote about design patterns, func
 <img align="center" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
 </p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" width="41%"> <img src="https://github-readme-stats.vercel.app/api?username=rafafrdz&rank_icon=github" width="52%">
+<a href="https://github.com/rafafrdz"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" width="41%"> <img src="https://github-readme-stats.vercel.app/api?username=rafafrdz&rank_icon=github" width="52%"></a>
