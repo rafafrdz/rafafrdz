@@ -51,11 +51,9 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 <img align="center" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
 </p>
 <h3> And more... </h3>
-<div align="center">
-<p>
+<div align="left">
 <a href="https://github.com/rafafrdz/"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafafrdz&hide=XSLT,CSS,SQLPL&layout=compact" alt="rafafrdz-stats"/></a>
 <img align="right" alt="GIF" src="./pictures/developer.gif?raw=true" width="350"/>
-</p>
 </div>
 <div>
 <h1> To code or not to code, that is the question <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/> </h1>
