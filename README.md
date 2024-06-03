@@ -2,7 +2,7 @@
 
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50">
 
-[![Linkedin](https://img.shields.io/badge/Linked-in-369?&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/rafael-fernandez-ortiz/)  <a href="https://reddit.com/u/rafafrdz"><img alt="Reddit User Karma" src="https://img.shields.io/reddit/user-karma/combined/rafafrdz?label=karma&logo=reddit&logoColor=white"></a> ![](https://visitor-badge.glitch.me/badge?page_id=rafafrdz.rafafrdz)
+[![Linkedin](https://img.shields.io/badge/Linked-in-369?&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/rafael-fernandez-ortiz/)
 
 I'm a graduated in mathematics specialized in algebra and computer science, and a passionated Scala developer. As fascinated in learning about category theory as playing 80's arcade games. Looking for new challenges and new approaches to develop.
 
@@ -41,10 +41,10 @@ Hi! I would like to show you some posts that I wrote about design patterns, func
 <h1>  Coffee time... Let's talk!<img align="left" alt="png" src="./pictures/cup.png?raw=true" width="60px"/></h1> 
 
 - 💬 Ask me about anything, I am happy to help;
-- 🐤 How to reach me: [@neskeip](https://twitter.com/neskeip);
-- 📝 [Resume (Spanish)](https://drive.google.com/file/d/1yE_VHTEpefw8NXSFIBNbB-3VZ2z4E7c9/view)
-- 📝 [Resume (English)](https://drive.google.com/file/d/1uqTAWSx0z5iuWpLnNZqaqNmLkj6sB25G/view)
 - 🌍 [Website](https://rafaelfernandez.dev)
+- 📝 [Resume (Spanish)](https://drive.google.com/file/d/1yE_VHTEpefw8NXSFIBNbB-3VZ2z4E7c9/view)
+- 📝 [Resume (English)](https://drive.google.com/file/d/1espEzGL_pYQOV1-mWrgxBdz94TDjYCmF/view)
+
 
 <h1>Tech Stack <img align="left" alt="png" src="./pictures/code.png?raw=true" width="60px"/></h1>
 
