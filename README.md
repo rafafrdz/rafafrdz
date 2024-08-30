@@ -45,7 +45,6 @@ Welcome to my GitHub corner! Here, I share my thoughts and explorations in desig
 
 - 💬 Always open to discussions—ask me anything!
 - 🌍 [Website](https://rafaelfernandez.dev)
-- 📝 [Resume (Spanish)](https://drive.google.com/file/d/1yE_VHTEpefw8NXSFIBNbB-3VZ2z4E7c9/view)
 - 📝 [Resume (English)](https://drive.google.com/file/d/1espEzGL_pYQOV1-mWrgxBdz94TDjYCmF/view)
 
 
