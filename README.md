@@ -1,12 +1,14 @@
 [![Header](./pictures/banner.png "Header")](https://rafaelfernandezortiz.com/)
 
-# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50">
+# Hey there, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50">
 
 [![Linkedin](https://img.shields.io/badge/Linked-in-369?&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/rafael-fernandez-ortiz/)
 
-I'm a graduated in mathematics specialized in algebra and computer science, and a passionated Scala developer. As fascinated in learning about category theory as playing 80's arcade games. Looking for new challenges and new approaches to develop.
+I'm Rafael Fernández Ortiz, a die-hard Scala developer with a rock-solid foundation in mathematics—algebra and computer science are my playgrounds.
 
-#### release 1.9.94  
+My tech journey is an epic blend of the elegant abstractions of category theory and the exhilarating rush of writing code that just clicks. And yes, when I'm not conjuring up functional magic, you’ll find me battling it out in 80's arcade classics! 🎮 I'm always on a quest for new challenges, eager to push the boundaries of what's possible in the world of code.
+
+#### Current Version: 1.9.94 🛠️
 
 ```scala
  import dev.myself.core._
@@ -32,15 +34,16 @@ I'm a graduated in mathematics specialized in algebra and computer science, and 
 
 <h1> To code or not to code, that is the question <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/> </h1>
 
-Hi! I would like to show you some posts that I wrote about design patterns, functional programming, scala and so on.
+Welcome to my GitHub corner! Here, I share my thoughts and explorations in design patterns, functional programming, Scala, and more. Check out some of my recent writings:
+
 - **Web** [Agregando skills modulares (Spanish)](https://rafaelfernandez.dev/agregando-skills-modulares)
 - **Web** [Fechas y expresiones regulares (Spanish)](https://rafaelfernandez.dev/fechas-expresiones-regulares)
 - **Reddit** [Free Monad vs Tagless Final (English)](https://www.reddit.com/r/scala/comments/uzoycg/free_monad_vs_tagless_final/)
   
 <br>
-<h1>  Coffee time... Let's talk!<img align="left" alt="png" src="./pictures/cup.png?raw=true" width="60px"/></h1> 
+<h1>  Coffee time... Let's talk! ☕ <img align="left" alt="png" src="./pictures/cup.png?raw=true" width="60px"/></h1> 
 
-- 💬 Ask me about anything, I am happy to help;
+- 💬 Always open to discussions—ask me anything!
 - 🌍 [Website](https://rafaelfernandez.dev)
 - 📝 [Resume (Spanish)](https://drive.google.com/file/d/1yE_VHTEpefw8NXSFIBNbB-3VZ2z4E7c9/view)
 - 📝 [Resume (English)](https://drive.google.com/file/d/1espEzGL_pYQOV1-mWrgxBdz94TDjYCmF/view)
