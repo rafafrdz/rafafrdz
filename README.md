@@ -6,7 +6,9 @@
 
 I'm Rafael Fernández Ortiz, a die-hard Scala developer with a rock-solid foundation in mathematics—algebra and computer science are my playgrounds.
 
-My tech journey is an epic blend of the elegant abstractions of category theory and the exhilarating rush of writing code that just clicks. And yes, when I'm not conjuring up functional magic, you’ll find me battling it out in 80's arcade classics! 🎮 I'm always on a quest for new challenges, eager to push the boundaries of what's possible in the world of code.
+My tech journey is an epic blend of the elegant abstractions of category theory and the exhilarating rush of writing code that just clicks. And yes, when I'm not conjuring up functional magic, you’ll find me battling it out in 80's arcade classics! 🎮
+
+I'm always on a quest for new challenges ⚔️, eager to push the boundaries of what's possible in the world of code.
 
 #### Current Version: 1.9.94 🛠️
 
