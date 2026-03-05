@@ -70,7 +70,11 @@ The following examples demonstrate how these principles translate into tangible 
 This Scala snippet exemplifies type-driven design: enforcing invariants without inheritance hierarchies or hidden side effects, utilizing purely algebraic definitions.
 
 ```scala
+import cats.Functor
+import cats.syntax.functor.*
+
 // Domain
+final case class Date(value: Long) extends AnyVal
 final case class Timeline[A](at: Date, value: A)
 
 // Algebra
@@ -92,25 +96,25 @@ trait CurriculumVitae[F[_]] {
 // Interpreter-free Program Composition
 object CurriculumVitae {
 
-  def apply[F[_]: MonadFilter](P: PersonAlg[F]): CurriculumVitae[F] =
+  def apply[F[_]: Functor](P: PersonAlg[F]): CurriculumVitae[F] =
     new CurriculumVitae[F] {
 
-      def about: F[Info] =
+      override def about: F[Info] =
         P.about
 
-      def experience(at: Date): F[List[Experience]] =
-        P.experience.map(_.mapFilter(collectUntil(at)))
+      override def experience(at: Date): F[List[Experience]] =
+        P.experience.map(_.flatMap(collectUntil(at)))
 
-      def education(at: Date): F[List[Education]] =
-        P.education.map(_.mapFilter(collectUntil(at)))
+      override def education(at: Date): F[List[Education]] =
+        P.education.map(_.flatMap(collectUntil(at)))
 
-      def skills: F[Stack] =
+      override def skills: F[Stack] =
         P.skills
     }
 
-  private def collectUntil[A](at: Date): Timeline[A] => Option[A] = {
-     case Timeline(date, value) if date <= at => Some(value)
-     case _                                   => None
+  private def collectUntil[A](at: Date): Timeline[A] => List[A] = {
+    case Timeline(date, value) if date.value <= at.value => List(value)
+    case _                                               => Nil
   }
 }
 ```
@@ -122,9 +126,10 @@ This Rust implementation mirrors the same architectural rigor: traits as behavio
 <details> <summary><strong>View Rust implementation</strong></summary>
 
 ```rust
-use std::collections::HashMap;
-
 // Domain
+#[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord)]
+pub struct Date(u64);
+
 #[derive(Clone)]
 pub struct Timeline<A> {
     pub at: Date,
@@ -146,19 +151,17 @@ pub struct CurriculumVitae<P> {
     person: P,
 }
 
-impl<P> CurriculumVitae<P>
-where
-    P: PersonAlg,
-{
+impl<P: PersonAlg> CurriculumVitae<P> {
     pub fn new(person: P) -> Self {
         Self { person }
     }
 
-    fn collect_until<A>(at: Date, xs: Vec<Timeline<A>>) -> Vec<A> {
-        xs.into_iter()
-            .filter(|t| t.at <= at)
-            .map(|t| t.value)
-            .collect()
+    pub fn about(&self) -> Result<Info, P::Error> {
+        self.person.about()
+    }
+
+    pub fn skills(&self) -> Result<Stack, P::Error> {
+        self.person.skills()
     }
 
     pub fn experience(&self, at: Date) -> Result<Vec<Experience>, P::Error> {
@@ -167,6 +170,13 @@ where
 
     pub fn education(&self, at: Date) -> Result<Vec<Education>, P::Error> {
         self.person.education().map(|xs| Self::collect_until(at, xs))
+    }
+
+    fn collect_until<A>(at: Date, xs: Vec<Timeline<A>>) -> Vec<A> {
+        xs.into_iter()
+            .filter(|t| t.at <= at)
+            .map(|t| t.value)
+            .collect()
     }
 }
 ```
