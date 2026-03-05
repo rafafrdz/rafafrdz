@@ -1,6 +1,7 @@
 [![Header](./pictures/banner.png "Header")](https://rafaelfernandezortiz.com/)
 
 # Rafael Fernández
+**Senior Software Engineer & Data Engineer | Scala & Rust | Functional Programming**
 
 <p align="left">
   <img src="https://img.shields.io/badge/Scala-%23f61938?logo=scala" />
@@ -15,75 +16,58 @@
   <img src="https://img.shields.io/badge/Linux-white?logo=linux&logoColor=black" />
 </p>
 
+I am a Senior Software Engineer and Data Engineer specializing in the design and implementation of highly concurrent, distributed, and data-intensive systems. My methodology is deeply rooted in the rigorous application of Functional Programming principles, operating at the intersection of applied category theory, robust data engineering, and high-performance systems programming in **Scala** and **Rust**. 
 
-Functional programmer focused on **type-driven design**, **lawful abstractions**, and **effectful systems**.
+I engineer software architectures where **types carry precise semantic meaning**, **effects are explicitly modeled**, and **algebraic composition is the primary scaling mechanism**.
 
-My work sits at the intersection of **Scala**, **category theory**, and **systems programming with Rust**. I design software where **types carry meaning**, **effects are explicit**, and **composition is the primary tool**.
+> *If an invariant is not encoded in the type system, it is merely a convention.*
 
-\- _If an invariant is not encoded in the type system, it is merely a convention._
+---
 
-## _To code or not to code, that is the question_ <img align="left" alt="png" src="./pictures/craneo.png?raw=true" width="60px"/> - My Writing & Thought Workflow
+## Consulting & Freelance Services
 
-I write on my [blog](https://blog.rafaelfernandez.dev/) about functional programming, Scala, and software architecture, focusing on practical FP rather than academic exercises.
+I provide specialized freelance engineering and technical consulting for organizations aiming to construct resilient, scalable architectures or modernize their existing infrastructure. My core competencies include:
 
-##  _Coffee time... Let's talk!_ ☕ <img align="left" alt="png" src="./pictures/cup.png?raw=true" width="60px"/> - Freelance
+- **Distributed Systems & Data Engineering:** Architecture and implementation of robust data pipelines and streaming platforms (Apache Spark, Apache Kafka).
+- **High-Performance Microservices:** Building scalable backend services utilizing advanced Scala (ZIO, Cats) and systems programming in Rust.
+- **Architectural Modernization:** Transitioning legacy codebases into strictly typed, functionally pure architectures to drastically reduce technical debt and runtime anomalies.
+- **Technical Mentorship:** Elevating engineering teams through the adoption of functional programming disciplines and type-driven design.
 
-Available for freelance work and technical consulting. See my [website](https://rafaelfernandez.dev/), [CV](https://drive.google.com/file/d/1espEzGL_pYQOV1-mWrgxBdz94TDjYCmF/view) or my [LinkedIn](https://www.linkedin.com/in/rafael-fernandez-ortiz/). If your system is growing faster than your confidence in it, we should talk.
+**Connect with me:** [Personal Website](https://rafaelfernandez.dev/) | [Curriculum Vitae](https://drive.google.com/file/d/1espEzGL_pYQOV1-mWrgxBdz94TDjYCmF/view) | [LinkedIn](https://www.linkedin.com/in/rafael-fernandez-ortiz/) | [Technical Blog](https://blog.rafaelfernandez.dev/)
 
-## Design Principles (Non-Negotiable)
+---
 
-- Typeclasses over inheritance
-- Algebras over implementations
-- Effects are values, not side effects
-- Explicit dependencies via parametric polymorphism
-- Laws first, optimizations second (but never ignored)
-- Make illegal states unrepresentable
+## Architectural Philosophy & Disciplines
 
-## About me
+I do not view Functional Programming merely as a stylistic choice or a suite of tools, but rather as a **formal discipline for reasoning about software correctness**. My objective is to engineer systems that remain understandable, provably correct, and adaptable under extreme technical constraints.
 
-I don’t see Functional Programming as a style or a set of tools, but as a **discipline for reasoning about software**.
+### 1. Types as Executable Constraints
+Types are not documentation; they are formal, executable constraints. If an invariant is critical to the domain, it belongs in the type system. A function that admits more states than it can safely process is fundamentally dishonest.
 
-My goal is not to write “clever” code, but to build systems that remain understandable, correct, and evolvable under pressure.
+### 2. Explicit Effect Management
+Effects are not incidental occurrences—they are explicit descriptions of program behavior. An effectful program is a value; its interpretation is a distinct and separate concern. Concealed side effects are the most insidious form of technical debt.
 
-### 1. Types are not documentation  
-Types are **executable constraints**. If an invariant matters, it belongs in the type system. If a function accepts more states than it can handle, it is lying.
+### 3. Lawful Abstractions
+An abstraction lacking algebraic laws is merely a fragile interface. Laws provide the formal guarantees required for fearless refactoring and predictable composition. If an abstraction cannot be reasoned about algebraically, it is analytically deficient.
 
-### 2. Effects must be explicit  
-Effects are not something that *happens* — they are something that is **described**. An effectful program is a value. Interpretation is a separate concern. Hidden effects are technical debt.
+### 4. Composition as the Sole Scaling Strategy
+Complex systems are not engineered by arbitrarily appending features, but by **composing smaller, well-behaved, and verifiable components**. True composition requires explicit dependencies, strictly controlled effects, and deterministic data flow.
 
-### 3. Abstractions must be lawful  
-An abstraction without laws is just an interface. Laws are what allow refactoring without fear and composition without surprise. If an abstraction cannot be reasoned about algebraically, it is probably the wrong abstraction.
+### 5. Inexpressible Illegal States
+Every runtime validation is a belated mitigation of a flawed domain model. The earlier an invalid state is mathematically rejected by the compiler, the safer the system. The optimal error is the one that cannot be syntactically expressed.
 
-### 4. Composition is the only scaling strategy  
-Large systems are not built by adding features, but by **composing smaller, well-behaved parts**.
+### 6. Performance as a Derivative of Correctness
+Mathematical abstractions and zero-cost architectures are desirable; accidental complexity is not. High performance and rigorous Functional Programming are not mutually exclusive—they are intrinsically aligned when system boundaries are appropriately drawn.
 
-Composition works when:
-- Dependencies are explicit
-- Effects are controlled
-- Data flows are unidirectional
+---
 
-Inheritance does not scale. Composition does.
+## Structural Examples: Algebra First, Implementation Later
 
+The following examples demonstrate how these principles translate into tangible software architecture: domain algebras expressed as formal traits or typeclasses, explicitly modeled effects, and strict interpreter-free composition.
 
-### 5. Make illegal states unrepresentable  
-Every runtime check is a failure to model the domain correctly. The earlier an invalid state is rejected, the cheaper it is. The best error is the one that cannot be expressed.
+### 🧬 Scala — Tagless Final, Typeclasses & Laws
 
-
-### 6. Performance is a feature, not an excuse  
-Abstractions are allowed. Accidental complexity is not. I care about performance, but never at the cost of correctness or clarity. Good FP and high performance are not opposites — they are often aligned.
-
-
-### 7. Simplicity is not minimalism  
-Fewer concepts do not automatically mean simpler systems. True simplicity comes from **clear boundaries**, **precise models**, and **predictable behavior**. A small but leaky abstraction is worse than a larger but honest one.
-
-## Algebra First, Implementation Later
-
-### 🧬 Scala — Tagless Final, Typeclasses, Laws
-
-The following Scala snippet shows how these principles translate into a real design: algebras expressed as typeclasses, effect-polymorphic programs, and interpreter-free composition.
-
-
-\- _No inheritance trees. No hidden effects. Only algebras, interpreters, and laws._
+This Scala snippet exemplifies type-driven design: enforcing invariants without inheritance hierarchies or hidden side effects, utilizing purely algebraic definitions.
 
 ```scala
 // Domain
@@ -97,7 +81,7 @@ trait PersonAlg[F[_]] {
   def skills: F[Stack]
 }
 
-// Program
+// Program Definition
 trait CurriculumVitae[F[_]] {
   def about: F[Info]
   def experience(at: Date): F[List[Experience]]
@@ -105,7 +89,7 @@ trait CurriculumVitae[F[_]] {
   def skills: F[Stack]
 }
 
-// Interpreter-free construction
+// Interpreter-free Program Composition
 object CurriculumVitae {
 
   def apply[F[_]: MonadFilter](P: PersonAlg[F]): CurriculumVitae[F] =
@@ -124,21 +108,18 @@ object CurriculumVitae {
         P.skills
     }
 
-  def collectUntil[A](at: Date): Timeline[A] => Option[A] = {
+  private def collectUntil[A](at: Date): Timeline[A] => Option[A] = {
      case Timeline(date, value) if date <= at => Some(value)
-     case _                                  => None
-   }
+     case _                                   => None
+  }
 }
 ```
 
+### 🦀 Rust — Traits, Ownership & Zero-Cost Abstractions
 
-### 🦀 Rust — Traits, Ownership, Zero-Cost Abstractions
+This Rust implementation mirrors the same architectural rigor: traits as behavioral algebras, explicit effect handling via `Result`, and mathematical correctness enforced by the borrow checker and type system.
 
-This Rust example mirrors the same architectural ideas: traits as algebras, explicit effects via `Result`, and correctness enforced by the type system.
-
-\- _Ownership enforces correctness. Traits define behavior. Abstractions compile away._
-
-<details> <summary><strong>Show Scala example</strong></summary>
+<details> <summary><strong>View Rust implementation</strong></summary>
 
 ```rust
 use std::collections::HashMap;
@@ -160,7 +141,7 @@ pub trait PersonAlg {
     fn skills(&self) -> Result<Stack, Self::Error>;
 }
 
-// Program
+// Program Definition
 pub struct CurriculumVitae<P> {
     person: P,
 }
@@ -188,6 +169,5 @@ where
         self.person.education().map(|xs| Self::collect_until(at, xs))
     }
 }
-
 ```
 </details>
