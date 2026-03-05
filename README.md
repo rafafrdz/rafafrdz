@@ -70,53 +70,44 @@ The following examples demonstrate how these principles translate into tangible 
 This Scala snippet exemplifies type-driven design: enforcing invariants without inheritance hierarchies or hidden side effects, utilizing purely algebraic definitions.
 
 ```scala
-import cats.Functor
+import cats.{ Functor, Order }
 import cats.syntax.functor.*
 
-// Domain
-final case class Date(value: Long) extends AnyVal
-final case class Timeline[A](at: Date, value: A)
+// Domain — opaque type enforces semantic boundary at zero runtime cost
+opaque type Date = Long
+object Date:
+  def apply(value: Long): Date       = value
+  given Order[Date]                  = Order.by(identity)
 
-// Algebra
-trait PersonAlg[F[_]] {
-  def about: F[Info]
+final case class Timeline[+A](at: Date, value: A)
+
+// Algebra — higher-kinded interface; F[_] is the effect abstraction
+trait PersonAlg[F[_]]:
+  def about:      F[Info]
   def experience: F[List[Timeline[Experience]]]
-  def education: F[List[Timeline[Education]]]
-  def skills: F[Stack]
-}
+  def education:  F[List[Timeline[Education]]]
+  def skills:     F[Stack]
 
-// Program Definition
-trait CurriculumVitae[F[_]] {
-  def about: F[Info]
-  def experience(at: Date): F[List[Experience]]
-  def education(at: Date): F[List[Education]]
-  def skills: F[Stack]
-}
+// Program — algebra over F[_], independent of any concrete interpreter
+trait CurriculumVitae[F[_]]:
+  def about:                  F[Info]
+  def experience(at: Date):   F[List[Experience]]
+  def education(at: Date):    F[List[Education]]
+  def skills:                 F[Stack]
 
-// Interpreter-free Program Composition
-object CurriculumVitae {
+// Smart constructor — requires only Functor; no effect system dependency
+object CurriculumVitae:
 
-  def apply[F[_]: Functor](P: PersonAlg[F]): CurriculumVitae[F] =
-    new CurriculumVitae[F] {
+  def apply[F[_]: Functor](alg: PersonAlg[F]): CurriculumVitae[F] =
+    new CurriculumVitae[F]:
+      def about                = alg.about
+      def skills               = alg.skills
+      def experience(at: Date) = alg.experience.map(_.flatMap(collectUntil(at)))
+      def education(at: Date)  = alg.education.map(_.flatMap(collectUntil(at)))
 
-      override def about: F[Info] =
-        P.about
-
-      override def experience(at: Date): F[List[Experience]] =
-        P.experience.map(_.flatMap(collectUntil(at)))
-
-      override def education(at: Date): F[List[Education]] =
-        P.education.map(_.flatMap(collectUntil(at)))
-
-      override def skills: F[Stack] =
-        P.skills
-    }
-
-  private def collectUntil[A](at: Date): Timeline[A] => List[A] = {
-    case Timeline(date, value) if date.value <= at.value => List(value)
-    case _                                               => Nil
-  }
-}
+  private def collectUntil[A](at: Date)(using Order[Date]): Timeline[A] => List[A] =
+    case Timeline(date, value) if Order[Date].lteqv(date, at) => List(value)
+    case _                                                     => Nil
 ```
 
 ### 🦀 Rust — Traits, Ownership & Zero-Cost Abstractions
